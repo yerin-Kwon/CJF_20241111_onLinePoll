@@ -32,7 +32,9 @@
 //
 	
 //	투표 항목의 개수를 계산한다.
-	int itemCount = (poll.size() - 1) / 2;
+//	int itemCount = (poll.size() - 1) / 2;
+//	자바는 이렇게 해도 된다.
+	int itemCount = poll.size() / 2;
 //	out.println(itemCount+ "<br>");
 
 %>
